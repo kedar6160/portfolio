@@ -11599,7 +11599,7 @@ pre .code {
 }
 
 .custom-navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -12219,4 +12219,9 @@ pre .code {
 
 .section-lg {
   padding: 100px 0 !important;
+}
+
+#home {
+    width: 100%;
+  overflow-x: hidden;
 }
